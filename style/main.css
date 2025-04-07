@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header {
+    width: 100vw;
+    height: 136px;
+    background-color: rgb(184, 99, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+
+}
+.header__title--lightsalmon {
+    color: rgb(253, 165, 0);
+}
+
