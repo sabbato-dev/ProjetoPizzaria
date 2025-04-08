@@ -1,6 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* HEADER */
 header {
     width: 100vw;
     height: 136px;
@@ -17,7 +17,50 @@ header {
     font-family: "Inter", sans-serif;
 
 }
+
 .header__title--lightsalmon {
     color: rgb(253, 165, 0);
 }
 
+/* FOOTER */
+.footer {
+    width: 100vw;
+    height: 136px;
+    background-color: rgb(214, 141, 4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer__columns {
+    width: 16%;
+    text-align: center;
+}
+.footer__address {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: lighter;
+}
+.footer__sociais {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: lighter;
+}
+.footer__devby {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: lighter;
+}
+.footer__social-icon {
+    text-decoration: none;
+    color: rgb(184, 99, 253);
+    font-size: 24px;
+}
+.footer__sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
