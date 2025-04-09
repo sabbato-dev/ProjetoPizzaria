@@ -3,7 +3,7 @@
 /* HEADER */
 header {
     width: 100vw;
-    height: 136px;
+    height: 20vh;
     background-color: rgb(184, 99, 253);
     display: flex;
     justify-content: center;
@@ -22,43 +22,113 @@ header {
     color: rgb(253, 165, 0);
 }
 
+/* main */
+main {
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./../imagens/pizza2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25vw 0;
+    background-position: 50vh 0;
+
+
+    /* ./../          chama a pasta*/
+ 
+    
+}
+
+.form {
+    background-color: rgb(255, 169, 56);
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 240px;
+    align-items: center;
+    justify-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.514);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+    position: relative;
+    left: 200px;
+}
+
+.form__input {
+    width: 200px;
+    height: 24px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.411);
+}
+
+.form__btn {
+    border-radius: 5px;
+    border: none;
+    padding: 12px 30px;
+    background-color: rgb(182, 121, 206);
+    color: aliceblue;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.418)
+}
+
+.form__btn--action {
+    background-color: rgb(153, 216, 81);
+}
+
+
+
+
+
+
+
 /* FOOTER */
 .footer {
     width: 100vw;
-    height: 136px;
+    height: 20vh;
     background-color: rgb(214, 141, 4);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .footer__columns {
     width: 16%;
     text-align: center;
 }
+
 .footer__address {
     font-family: "Inter", sans-serif;
     font-size: 22px;
     color: aliceblue;
     font-weight: lighter;
 }
+
 .footer__sociais {
     font-family: "Inter", sans-serif;
     font-size: 22px;
     color: aliceblue;
     font-weight: lighter;
 }
+
 .footer__devby {
     font-family: "Inter", sans-serif;
     font-size: 22px;
     color: aliceblue;
     font-weight: lighter;
 }
+
 .footer__social-icon {
     text-decoration: none;
     color: rgb(184, 99, 253);
     font-size: 24px;
 }
+
 .footer__sociais {
     display: flex;
     flex-direction: column;
