@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root {
-    --cor-primaria: rgb(184, 99, 253);
-    --cor-secundaria: rgb(253, 165, 0);
+    --cor-primaria: rgb(0, 0, 0);
+    --cor-secundaria: rgb(253, 80, 0);
     --cor-terciaria: rgb(214, 141, 4);
     --cor-hover: rgb(153, 216, 81);
     --cor-texto: rgb(255, 255, 255);
@@ -12,15 +12,22 @@ header {
     height: 20vh;
     background-color: var(--cor-primaria);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    gap: 28%;
+    
 }
+
+.header__logo {
+    width: 200px;
+    padding-left: 17%;
+    }
 
 .header__title {
     font-weight: bold;
     font-size: 48px;
     color: var(--cor-texto);
-    font-family: "Inter", sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -33,6 +40,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-color: rgb(142, 190, 206);
     background-image: url(./../imagens/pizza2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +65,7 @@ main {
     gap: 16px;
     border-radius: 15px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.514);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
     color: var(--cor-texto);
     position: relative;
